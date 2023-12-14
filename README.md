@@ -9,7 +9,7 @@ Tired of a cluttered Downloads folder? Introducing File Organizer, your go-to to
 
 ### Features:
 
-- Customization: Choose your own destination folders or create an "Others" folder for unfamiliar file types.
+- Customization: Choose your own destination folders(under development) or create an "Others" folder for unfamiliar file types.
 - Progress bar: See the organization process in action with a visual indicator of progress.
 - Error handling: File Organizer gracefully handles unknown file types and errors, notifying you if needed.
 - Simple and intuitive: Easy-to-use interface makes file organization a breeze.
