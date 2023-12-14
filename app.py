@@ -96,11 +96,16 @@ def finish_monitoring():
 def choose_folder():
     global download_folder_path, total_files
     download_folder_path = Path(filedialog.askdirectory(title="Select Download Folder"))
-    if download_folder_path:
-        messagebox.showinfo("Folder Set", f"Downloads will be organized in '{download_folder_path}'.")
+
+    if str(download_folder_path)!=".":
+        messagebox.showinfo("Folder Selection", f"Downloads will be organized in '{download_folder_path}'.")
         total_files = len(list(Path(download_folder_path).glob("*.*")))
         progress_label['text'] = f"Total files found: {total_files}"
         enable_start_button()
+        
+    else:
+        messagebox.showinfo("Folder Selection", "No folder selected.")
+        return
 
 def enable_start_button():
     global start_button
