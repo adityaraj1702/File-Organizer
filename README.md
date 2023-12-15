@@ -17,7 +17,7 @@ Tired of a cluttered Downloads folder? Introducing File Organizer, your go-to to
 
 ### Getting started:
 
-- Download and install File Organizer.
+- Download and install [File Organizer](https://github.com/adityaraj1702/File-Organizer/releases/download/first_release/File_Organizer.exe).
 - Choose your Downloads folder.
 - Start monitoring! Sit back and watch as your files get organized automatically.
 

@@ -1,7 +1,6 @@
 import os
 import shutil
 from pathlib import Path
-import logging
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter.ttk import Progressbar
